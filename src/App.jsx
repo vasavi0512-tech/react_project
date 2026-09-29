@@ -5,10 +5,22 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 
 function App() {
+    <nav>
+    <h2>My Website</h2>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
   const [count, setCount] = useState(0)
 
   return (
     <>
+          <nav>
+        <h2>My Website</h2>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
