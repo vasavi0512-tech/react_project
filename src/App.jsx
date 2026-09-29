@@ -21,6 +21,17 @@ function App() {
         <a href="#">About</a>
         <a href="#">Contact</a>
       </nav>
+            <form>
+        <h2>Registration Form</h2>
+
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name" />
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email" />
+
+        <button type="submit">Submit</button>
+      </form>
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
